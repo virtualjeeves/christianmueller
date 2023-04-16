@@ -31,7 +31,7 @@ a {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('/windmills.jpg');
+  background-image: url('/images/windmills.jpg');
   background-size: cover;
   color: #ffffff;
   height: 400px;
