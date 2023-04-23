@@ -13,14 +13,21 @@ footer .row {
   align-items: center;
 }
 
+img.resume-initials {
+  width: 100%;
+  height: auto;
+}
+
 h1 {
   font-weight: 700;
   margin: 0;
 }
 
-h1 .resume-name {
+h1.resume-name {
   font-family: Cardo, serif;
-  align-items: right;
+  font-size: 6vw;
+  font-weight: 400;
+  text-align-last: justify;
 }
 
 nav {
@@ -58,6 +65,34 @@ a {
 section .row img {
   margin: 0 0 30px;
   width: 100%;
+}
+
+h2.resume-section {
+  color: #345b30;
+  font-family: Cardo, serif;
+  vertical-align: text-top;
+}
+
+ul.resume-section-head {
+  margin: 0px 0px 0px 30px;
+}
+
+ul.resume-section-head h2 {
+  margin: 30px 0px 0px 0px;
+}
+
+ul.resume-section-head li::marker {
+  color: #345b30;
+  font-size: 3em;
+}
+
+ul.resume-section-body {
+  font-family: Roboto, sans-serif;
+}
+
+ul.resume-section-body li {
+  font-size:inherit;
+  list-style-type: none;
 }
 
 .col-md-6 {
